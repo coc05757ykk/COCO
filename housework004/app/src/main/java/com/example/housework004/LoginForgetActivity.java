@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class ForgetPasswordActivity extends AppCompatActivity implements View.OnClickListener{
+public class LoginForgetActivity extends AppCompatActivity implements View.OnClickListener{
 
     private EditText et_password_first; // 声明一个编辑框对象
     private EditText et_password_second; // 声明一个编辑框对象
@@ -20,7 +20,7 @@ public class ForgetPasswordActivity extends AppCompatActivity implements View.On
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_forget_password);
+        setContentView(R.layout.activity_login_forget);
 
         // 从布局文件中获取名叫et_password_first的编辑框
         et_password_first = findViewById(R.id.et_password_first);
