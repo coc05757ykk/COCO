@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LaunchSimpleActivity">
+    tools:context=".LaunchImproveActivity">
 
     <!-- 这是引导图片的图像视图 -->
     <ImageView

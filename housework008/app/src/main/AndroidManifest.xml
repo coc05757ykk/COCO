@@ -35,6 +35,10 @@
             android:exported="true"
             android:theme="@style/AppBaseTheme" />
         <activity
+            android:name=".ShoppingChannelActivity"
+            android:exported="true"
+            android:theme="@style/AppBaseTheme" />
+        <activity
             android:name=".MainActivity"
             android:theme="@style/AppBaseTheme">
             <intent-filter>
