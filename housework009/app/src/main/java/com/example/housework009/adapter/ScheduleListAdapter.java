@@ -1,9 +1,16 @@
 package com.example.housework009.adapter;
 
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-
-import java.util.ArrayList;
+import android.widget.TextView;
 
 import com.example.housework009.R;
 import com.example.housework009.ScheduleDetailActivity;
@@ -13,15 +20,7 @@ import com.example.housework009.calendar.Constant;
 import com.example.housework009.calendar.LunarCalendar;
 import com.example.housework009.util.DateUtil;
 
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.Color;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
+import java.util.ArrayList;
 
 public class ScheduleListAdapter extends BaseAdapter implements AdapterView.OnItemClickListener {
     private static final String TAG = "ScheduleListAdapter";

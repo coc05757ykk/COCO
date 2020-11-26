@@ -1,9 +1,9 @@
 package com.example.housework009.calendar;
 
+import android.util.Log;
+
 import java.util.Calendar;
 import java.util.Date;
-
-import android.util.Log;
 
 public class SpecialCalendar {
     private static final String TAG = "SpecialCalendar";

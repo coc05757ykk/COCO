@@ -18,11 +18,29 @@
 
     <TextView
         android:id="@+id/tv_tab_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/tab_bg_selector"
         android:drawableTop="@drawable/tab_first_selector"
-        style="@style/TabButton"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="点我"
+        android:textColor="@drawable/tab_text_selector"
+        android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ck_select" />
+
+    <TextView
+        android:id="@+id/tv_tab_style_button"
+        android:text="Style_btn"
+        style="@style/TabButton"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_tab_button"
+        app:layout_constraintStart_toEndOf="@+id/tv_tab_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_tab_button" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

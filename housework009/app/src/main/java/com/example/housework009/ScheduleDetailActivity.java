@@ -3,7 +3,6 @@ package com.example.housework009;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.app.TimePickerDialog;
-import android.app.TimePickerDialog.OnTimeSetListener;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -14,9 +13,7 @@ import android.os.Vibrator;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -34,7 +31,7 @@ import com.example.housework009.database.ScheduleArrangeHelper;
 import java.util.Calendar;
 import java.util.List;
 
-public class ScheduleDetailActivity extends AppCompatActivity implements OnClickListener, OnTimeSetListener {
+public class ScheduleDetailActivity extends AppCompatActivity implements View.OnClickListener, TimePickerDialog.OnTimeSetListener {
     private static final String TAG = "ScheduleDetailActivity";
     private Button btn_back, btn_edit, btn_save;
     private TextView schedule_date, schedule_time;
@@ -99,7 +96,7 @@ public class ScheduleDetailActivity extends AppCompatActivity implements OnClick
             "提前15分钟", "提前半小时", "提前1小时", "当前时间后10秒"};
     private int[] advanceArray = {0, 5, 10, 15, 30, 60, 10};
 
-    class AlarmSelectedListener implements OnItemSelectedListener {
+    class AlarmSelectedListener implements AdapterView.OnItemSelectedListener {
         public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
             alarmType = arg2;
         }

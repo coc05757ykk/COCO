@@ -1,27 +1,25 @@
 package com.example.housework009;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.viewpager.widget.PagerTabStrip;
-import androidx.viewpager.widget.ViewPager;
-import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
-import androidx.localbroadcastmanager.content.LocalBroadcastManager;
-
-import android.os.Bundle;
-
-import com.example.housework009.adapter.SchedulePagerAdapter;
-import com.example.housework009.calendar.SpecialCalendar;
-import com.example.housework009.util.DateUtil;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Color;
+import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.util.TypedValue;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.viewpager.widget.PagerTabStrip;
+import androidx.viewpager.widget.ViewPager;
+
+import com.example.housework009.adapter.SchedulePagerAdapter;
+import com.example.housework009.calendar.SpecialCalendar;
+import com.example.housework009.util.DateUtil;
 
 public class ScheduleActivity extends AppCompatActivity {
     private static final String TAG = "ScheduleActivity";
@@ -125,7 +123,7 @@ public class ScheduleActivity extends AppCompatActivity {
     }
 
     // 定义一个页面变化监听器，用于处理翻页视图的翻页事件
-    public class SheduleChangeListener implements OnPageChangeListener {
+    public class SheduleChangeListener implements ViewPager.OnPageChangeListener {
 
         // 在翻页结束后触发
         public void onPageSelected(int position) {

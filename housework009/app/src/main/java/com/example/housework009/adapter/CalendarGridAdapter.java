@@ -1,8 +1,13 @@
 package com.example.housework009.adapter;
 
+import android.content.Context;
+import android.graphics.Color;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-
-import java.util.ArrayList;
+import android.widget.TextView;
 
 import com.example.housework009.R;
 import com.example.housework009.bean.CalendarTransfer;
@@ -10,13 +15,7 @@ import com.example.housework009.calendar.LunarCalendar;
 import com.example.housework009.calendar.SpecialCalendar;
 import com.example.housework009.util.DateUtil;
 
-import android.content.Context;
-import android.graphics.Color;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
+import java.util.ArrayList;
 
 public class CalendarGridAdapter extends BaseAdapter {
     private static final String TAG = "CalendarGridAdapter";
