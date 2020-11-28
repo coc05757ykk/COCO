@@ -5,6 +5,7 @@
     android:background="@color/white"
     android:descendantFocusability="blocksDescendants"
     android:orientation="horizontal"
+    android:paddingHorizontal="10dp"
     android:paddingTop="10dp"
 
     android:paddingBottom="10dp">
@@ -12,7 +13,7 @@
     <ImageView
         android:id="@+id/iv_thumb"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="85dp"
         android:layout_weight="2"
         android:scaleType="fitCenter" />
 
