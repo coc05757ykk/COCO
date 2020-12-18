@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="302dd872-a08d-4a55-b10f-89219ccaabf6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/androidTest/java/com/example/finalapplication/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/GuideActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/LoadActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/LoginForgetActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/RegisterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/SearchResultActvity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/ShoppingCartProActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/ShoppingDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/TabFragmentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/TabLayoutActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/adapter/CartAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/adapter/GoodsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/adapter/GoodsPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/adapter/LaunchImproveAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/adapter/RecyclerGridAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/adapter/RecyclerStaggeredAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/bean/CartInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/bean/GoInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/bean/GoodsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/bean/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/constant/ImageList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/database/CartDBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/database/GoodsDBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/database/UserDBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/fragment/BookCoverFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/fragment/BookDetailFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/fragment/GuideFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/fragment/TabFirstFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/fragment/TabSecondFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/fragment/TabThirdFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/util/MenuUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/util/SharedUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/util/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/util/ViewUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/widget/BannerPager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/widget/PagerIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/widget/RecyclerExtras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/java/com/example/finalapplication/widget/SpacesItemDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable-v24/guide_bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable-v24/guide_bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable-v24/guide_bg3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable-v24/guide_bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/aigo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/aigo_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/banner_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/banner_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/book_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/book_detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/cart1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/huawei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/huawei_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/ic_about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/ic_app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/ic_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/ic_quit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/ic_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/ic_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/icon_point_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/icon_point_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/indicator_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/iphone_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/item_toolbar1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/item_toolbar2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/item_toolbar3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/item_toolbar4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/launch_guide.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/nova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/nova_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/null_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/ordro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/ordro_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/pic_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/pic_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/pic_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/pic_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/pic_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/pic_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/pic_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/pic_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/pic_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/pic_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/printer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/printer_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/red_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/redmi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/redmi_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/shape_oval_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/skirt23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/sony.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/sony_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/swich_background_off.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/swich_background_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/swich_circle_off.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/swich_circle_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/swith_background_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/swith_circle_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_bg_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_bg_shape_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_bg_shape_selected.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_first_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_first_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_first_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_second_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_second_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_second_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_text_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_third_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_third_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/tab_third_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/toolbar_image_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/drawable/toolbar_text_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_banner_pager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_guide.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_load.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_login_forget.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_search_result_actvity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_shopping_cart_pro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_shopping_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_shopping_title.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_tab_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/activity_tab_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/banner_pager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/fragment_book_cover.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/fragment_book_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/fragment_tab_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/fragment_tab_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/fragment_tab_third.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/item_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/item_dropdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/item_goods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/item_grid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/item_launch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/item_select.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/item_staggered.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/item_tabbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/layout/search_list_auto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/menu/menu_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/menu/menu_cart_pro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/menu/menu_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/menu/menu_goods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/menu/menu_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/menu/menu_load.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/menu/menu_null.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/menu/menu_overflow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/menu/menu_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/main/res/xml/searchable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/app/src/test/java/com/example/finalapplication/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalApplication/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TenthApplication/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TenthApplication/.idea/TenthApplication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TenthApplication/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TenthApplication/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TenthApplication/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TenthApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework001/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework002/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework003/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/androidTest/java/com/example/housework_big_end/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/BannerIndicatorActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/BannerPagerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/BannerTopActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/BroadTempActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/Guide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/LaunchSimpleActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/LayoutFirstActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/LoginForgetActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/Marquee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/OverflowMenuActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/RecyclerCombineActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/RecyclerDynamicActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/RecyclerGridActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/RecyclerLinearActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/RecyclerStaggeredActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/SQLiteReadActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/SQLiteWriteActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/SearchResultActvity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/SearchViewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/ShoppingCartProActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/ShoppingDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/TabFirstActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/TabFragmentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/TabHostActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/TabLayoutActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/TabSecondActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/TabThirdActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/TextReadActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/TextWriteActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/ToolbarActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/adapter/CartAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/adapter/GoodPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/adapter/GoodsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/adapter/ImagePagerAdapater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/adapter/LaunchSimpleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/adapter/LinearDynamicAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/adapter/RecyclerCombineAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/adapter/RecyclerGridAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/adapter/RecyclerLinearAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/adapter/RecyclerStaggeredAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/bean/CartInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/bean/GoodInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/bean/GoodsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/bean/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/constant/ImageList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/database/CartDBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/database/GoodsDBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/database/UserDBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/fragment/BookCoverFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/fragment/BookDetailFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/fragment/LaunchFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/fragment/LaunchViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/fragment/LayoutFirstFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/fragment/TabFirstFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/fragment/TabSecondFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/fragment/TabThirdFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/util/MenuUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/util/SharedUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/util/StatusBarUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/util/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/util/ViewUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/widget/BannerIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/widget/BannerPager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/widget/CustomDateDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/widget/PagerIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/widget/RecyclerExtras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/java/com/example/housework_big_end/widget/SpacesItemDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-hdpi/guide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-hdpi/night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/book_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/book_detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/cainixihuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dapaijiadao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/dian15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/editext_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/g_bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/g_bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/g_bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/g_bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/huawei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/huawei_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/ic_about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/ic_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/ic_quit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/ic_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/ic_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/icon_point_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/icon_point_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/indicator_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/iphone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/iphone_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/item_toolbar1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/item_toolbar2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/meizu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/meizu_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/null_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/oppo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/oppo_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/public_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/public_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/public_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/public_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/public_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/red_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/shape_edit_focus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/shape_edit_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/shape_oval_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/skirt23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/starbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/tab_bg_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/tab_bg_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/tab_bg_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/tab_bg_shape_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/tab_bg_shape_selected.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/tab_first_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/tab_second_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/tab_text_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/tab_third_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/toolbar_image_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/toolbar_text_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/trip_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/trip_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/trip_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/trip_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/vivo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/vivo_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/wuxiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/xiaomi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-v24/xiaomi_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/book.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/book_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/chongdianbao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/chongdianbao_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/dianbingxiang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/dianbingxiang_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/diannao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/diannao_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/dianshi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/dianshi_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/dianshiji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/dianshiji_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/kongtiao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/kongtiao_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/light_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/pingban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/pingban_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/teacup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable-xhdpi/teacup_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/adv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/bt_drawable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/button_normal_orig.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/button_pressed_orig.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/diqiu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/huawei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/huawei_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/huoxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/ic_app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/icon_point_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/icon_point_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/iphone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/iphone_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/item_toolbar3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/jinxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/launch_guide.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/meizu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/meizu_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/muxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/oppo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/oppo_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/pic_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/shuixing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/swich_background_off.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/swich_background_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/swich_circle_off.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/swich_circle_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/switch_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/switch_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/swith_background_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/swith_circle_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/tab_first_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/tab_first_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/tab_second_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/tab_second_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/tab_third_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/tab_third_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/tuxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/vivo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/vivo_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/xiaomi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/xiaomi_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/zrn1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/zrn2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/drawable/zrn3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_banner_indicator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_banner_pager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_banner_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_broad_temp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_guide.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_launch_simple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_layout_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_login_forget.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_main_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_marquee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_overflow_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_recycler_combine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_recycler_dynamic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_recycler_grid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_recycler_linear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_recycler_staggered.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_search_result_actvity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_search_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_shopping_cart_pro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_shopping_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_shopping_pro_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_shopping_title.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_sqlite_read.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_sqlite_write.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_tab_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_tab_host.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_tab_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_text_read.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_text_write.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/activity_toolbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/banner_indicator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/banner_pager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/bools.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/dialog_date.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/fragment_book_cover.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/fragment_book_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/fragment_tab_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/fragment_tab_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/fragment_tab_third.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/item_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/item_combine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/item_dropdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/item_goods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/item_grid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/item_launch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/item_linear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/item_select.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/item_staggered.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/item_tabbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/layout/search_list_auto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/menu/menu_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/menu/menu_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/menu/menu_goods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/menu/menu_null.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/menu/menu_overflow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/menu/menu_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/values/marriage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/main/res/xml/searchable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/app/src/test/java/com/example/housework_big_end/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../housework_big_end/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/housework_end/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/BannerIndicatorActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/BannerPagerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/BannerTopActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/BroadTempActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/LaunchSimpleActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/LayoutFirstActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/LoginForgetActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/MainLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/Marquee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/OverflowMenuActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/RecyclerCombineActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/RecyclerDynamicActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/RecyclerGridActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/RecyclerLinearActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/RecyclerStaggeredActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/SQLiteReadActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/SQLiteWriteActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/SearchResultActvity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/SearchViewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/ShoppingCartActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/ShoppingCartProActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/ShoppingDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/TabFirstActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/TabFragmentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/TabHostActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/TabLayoutActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/TabSecondActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/TabThirdActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/TextReadActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/TextWriteActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/ToolbarActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/adapter/CartAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/adapter/GoodPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/adapter/GoodsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/adapter/ImagePagerAdapater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/adapter/LaunchSimpleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/adapter/LinearDynamicAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/adapter/RecyclerCombineAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/adapter/RecyclerGridAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/adapter/RecyclerLinearAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/adapter/RecyclerStaggeredAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/bean/CartInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/bean/GoodInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/bean/GoodsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/bean/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/constant/ImageList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/database/CartDBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/database/GoodsDBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/database/UserDBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/fragment/BookCoverFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/fragment/BookDetailFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/fragment/LaunchFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/fragment/LaunchViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/fragment/LayoutFirstFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/fragment/TabFirstFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/fragment/TabSecondFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/fragment/TabThirdFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/util/MenuUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/util/SharedUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/util/StatusBarUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/util/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/util/ViewUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/widget/BannerIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/widget/BannerPager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/widget/CustomDateDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/widget/PagerIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/widget/RecyclerExtras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/housework_end/widget/SpacesItemDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/book_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/book_detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/book_detail1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/cainixihuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dapaijiadao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dian15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/editext_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/g_bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/g_bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/g_bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/g_bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/huawei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/huawei_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_quit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/icon_point_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/icon_point_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/indicator_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/iphone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/iphone_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/item_toolbar1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/item_toolbar2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/item_toolbar3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/meizu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/meizu_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/null_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/oppo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/oppo_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/public_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/public_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/public_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/public_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/public_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/red_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/shape_edit_focus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/shape_edit_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/shape_oval_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skirt23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/starbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tab_bg_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tab_bg_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tab_bg_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tab_bg_shape_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tab_bg_shape_selected.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tab_first_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tab_second_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tab_text_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tab_third_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/toolbar_image_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/toolbar_text_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/trip_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/trip_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/trip_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/trip_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/vivo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/vivo_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/xiaomi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/xiaomi_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/book.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/book_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/chongdianbao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/chongdianbao_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/dianbingxiang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/dianbingxiang_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/diannao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/diannao_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/dianshi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/dianshi_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/dianshiji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/dianshiji_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/kongtiao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/kongtiao_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/light_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pingban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pingban_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/teacup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/teacup_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/adv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bt_drawable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_normal_orig.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_pressed_orig.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/diqiu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/huawei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/huawei_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/huoxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_point_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_point_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iphone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iphone_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/jinxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/launch_guide.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/meizu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/meizu_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/muxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/oppo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/oppo_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pic_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shuixing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/swich_background_off.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/swich_background_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/swich_circle_off.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/swich_circle_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/switch_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/switch_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/swith_background_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/swith_circle_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_first_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_first_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_second_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_second_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_third_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_third_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tuxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vivo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vivo_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/xiaomi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/xiaomi_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/zrn1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/zrn2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/zrn3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_banner_indicator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_banner_pager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_banner_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_broad_temp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_launch_simple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_layout_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_forget.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_marquee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_overflow_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recycler_combine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recycler_dynamic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recycler_grid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recycler_linear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recycler_staggered.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_result_actvity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shopping_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shopping_cart_pro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shopping_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shopping_pro_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shopping_title.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sqlite_read.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sqlite_write.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tab_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tab_host.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tab_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_text_read.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_text_write.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_toolbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/banner_indicator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/banner_pager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/bools.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_date.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_book_cover.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_book_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab_third.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_combine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_dropdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_goods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_grid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_launch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_linear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_select.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_staggered.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_tabbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_list_auto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_goods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_null.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_overflow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/marriage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/searchable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/housework_end/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../the newest homework/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../the newest homework/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../the newest homework/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../the newest homework/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../the newest homework/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../the newest homework/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../the newest homework/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../the newest homework/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../housework001/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../housework001/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../housework002/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../housework002/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../housework003/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../housework003/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../housework007/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../housework007/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../housework010/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../housework010/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../housework011/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../housework011/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../housework011/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../housework011/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_API_29" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lloYBubrwgWfvNUTsZPJzsgI4S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ApkExportedModule" value="app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-18T06:37:40.723Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="E:/" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\example\housework_end\app\src\main\res\xml" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.housework_end" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\example\housework_end\app\src\main\res" />
+      <recent name="E:\example\housework_end\app\src\main\res\layout" />
+      <recent name="E:\example\housework_end\app\src\main\res\drawable-v24" />
+      <recent name="E:\example\housework_end\app\src\main\java\com\example\housework_end" />
+      <recent name="E:\example\housework_end\app\src\main\res\values" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.LaunchSimpleActivity">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LaunchSimpleActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.example.housework_end.LaunchSimpleActivity" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecyclerCombineActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.example.housework_end.RecyclerCombineActivity" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecyclerDynamicActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.example.housework_end.RecyclerDynamicActivity" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecyclerGridActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.example.housework_end.RecyclerGridActivity" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TabLayoutActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.example.housework_end.TabLayoutActivity" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android App.LaunchSimpleActivity" />
+        <item itemvalue="Android App.RecyclerGridActivity" />
+        <item itemvalue="Android App.RecyclerDynamicActivity" />
+        <item itemvalue="Android App.RecyclerCombineActivity" />
+        <item itemvalue="Android App.TabLayoutActivity" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="302dd872-a08d-4a55-b10f-89219ccaabf6" name="Default Changelist" comment="" />
+      <created>1608181083326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608181083326</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Intentions" timestamp="1608255909810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1608255909810" />
+    <state x="548" y="270" width="439" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608192196792">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="270" width="439" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1608192196792" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608265687394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608265687394" />
+    <state x="349" y="167" key="AndroidCreateResourceDirectoryDialog" timestamp="1608255878732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="167" key="AndroidCreateResourceDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1608255878732" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608269850863">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608269850863" />
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1608276602602">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608276602602" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1608276602601">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608276602601" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1608276602600">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608276602600" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1608276602602">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608276602602" />
+    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1608222884526">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1608222884526" />
+    <state x="434" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1608213953448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="434" y="294" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1608213953448" />
+  </component>
+</project>
